@@ -1,0 +1,35 @@
+footer {
+  background-color: #cb191f; /* สีพื้นหลังของ footer */
+  color: white; /* สีข้อความใน footer */
+  padding: 25px; /* ระยะขอบของ footer */
+  text-align: left; /* จัดให้เนื้อหาอยู่กลางชิดซ้าย */
+  display: flex; /* ใช้ flexbox */
+  justify-content: space-between; /* จัดเรียงแบบเท่ากันระหว่างข้อมูลใน footer */
+  align-items: center; /* จัดให้เนื้อหาอยู่กลางตามแนวดิ่ง */
+}
+
+.social-media {
+  display: flex; /* ใช้ flexbox */
+}
+
+.navbar-nav {
+  display: flex; /* ใช้ flexbox */
+  flex-direction: row; /* จัดเรียงให้อยู่ในแนวนอน */
+}
+
+.navbar-nav .nav-link {
+  margin-right: 20px; /* ระยะห่างระหว่างลิงก์ */
+}
+
+
+.social-media .social-icon,
+.navbar-nav .nav-link {
+  color: white; /* สีไอคอนโซเชียลและข้อความของ navbar */
+  margin-right: 10px; /* ระยะห่างระหว่างไอคอนโซเชียลและลิงก์ของ navbar */
+  font-size: 20px; /* ขนาดข้อความของ navbar */
+  text-decoration: none; /* ไม่มีขีดเส้นใต้ข้อความ */
+}
+
+.social-icon:hover {
+  opacity: 0.8; /* เพิ่มความโปร่งใสให้ไอคอนโซเชียลเมื่อ hover */
+}

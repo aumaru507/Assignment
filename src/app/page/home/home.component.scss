@@ -1,0 +1,26 @@
+.header {
+  padding: 100px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  background-color: #ff807c; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#ff807c, #fd4b47);
+}
+.imgstyle{
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+// .btn:hover img {
+//   filter: brightness(0) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%) invert(0%);
+// }
+
+.colstyle{
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .colstyle{
+    padding-top: 10px;
+  }
+}

@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+.btt{
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fd4b47;
+  background-color: #ffffff;
+  height: 48px;
+}
+
+.btt:hover{
+  transform: scale(1.04);
+  background-color: #fd4b47;
+}
+
+p{
+  font-family: 'Kanit', sans-serif;
+}
+
+.forn{
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+}
+
